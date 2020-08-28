@@ -1,0 +1,42 @@
+red=
+Do you have diabetes?
+Do you have heart disease? 
+Do you have any lung complications?
+Do you have high blood pressure?
+Are you meet someone who is infected? =3
+Are you meet with unknown person? =2
+-----------------------
+red2=4
+Are you suffering for fever? 
+Do you have a dry cough?
+Do you feel muscle aches?
+Do you feel the shortness of breath?
+-----------------------------------
+simple
+sim=5
+Do you have a headache?
+Do you suffer from diarrhea?
+Does your phlegm bleed?
+Can you taste or smell?
+Do you feel discoloration of fingers or toes?
+Are you depressed? sim=-1
+
+
+red >=1 and red2 >= 4
+high risk
+
+red >= 2 and red2 >= 2
+high risk
+
+red >= 2 and red2 >= 1
+risk
+
+red >= 1 and red2 >= 2
+risk
+
+sim >= 4 and red >= 1
+risk
+
+sim >= 4 and age >= 35
+risk
+advice all
